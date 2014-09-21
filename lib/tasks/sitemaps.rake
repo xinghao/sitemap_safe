@@ -18,7 +18,7 @@ namespace 'sitemaps' do
     
     doc.xpath('//url/loc').each_with_index do |link, index|
       urls.push(link.content)
-      break if index > 10        
+      #break if index > 10        
     end
     
     puts "TOTAL: #{urls.size}"

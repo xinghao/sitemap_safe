@@ -1,7 +1,7 @@
 # Staging
 
 set :user, 'ss8558'
-set :application, "weedsta"
+set :application, "sitemap-safe"
 set :hostname, "rails4"
 set :rails_env, 'production'
 set :deploy_to, "/www/rails_apps/#{application}"

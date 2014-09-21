@@ -1,7 +1,7 @@
 # Staging
 
 set :user, 'ec2-user'
-set :application, "weedfinda"
+set :application, "sitemap-safe"
 set :mystage, "aws-master"
 set :hostname, "aws-master"
 set :rails_env, 'production'
